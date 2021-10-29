@@ -1,16 +1,52 @@
 # flutter_playground
 
-A new Flutter project.
+Test driven exploration of dart and flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+```
+|-- async
+|   |-- async_helper.dart
+|   |-- future_test.dart
+|   `-- stream_test.dart
+|-- bloc
+|   |-- bloc_test.dart
+|   |-- counter_bloc
+|   |   |-- counter_bloc.dart
+|   |   `-- counter_event.dart
+|   |-- counter_cubit
+|   |   `-- counter_cubit.dart
+|   |-- cubit_test.dart
+|   `-- initial_emitter_cubit
+|       `-- initial_emitter_cubit.dart
+|-- class
+|   |-- class_dependency_test.dart
+|   |-- class_test.dart
+|   |-- container.dart
+|   |-- dependency_injection_test.dart
+|   |-- equitable_test.dart
+|   |-- interface_test.dart
+|   `-- shared_classes.dart
+|-- collections
+|   |-- list_test.dart
+|   |-- map_test.dart
+|   `-- set_test.dart
+|-- core
+|   |-- bool_test.dart
+|   |-- dynamic_test.dart
+|   |-- enum_test.dart
+|   |-- map_test.dart
+|   |-- number_test.dart
+|   `-- string_test.dart
+|-- errors
+|   `-- error_test.dart
+|-- mock
+|-- stdout
+|   `-- log_test.dart
+|-- time
+|   |-- date_time_test.dart
+|   `-- duration_test.dart
+`-- widget_test.dart
 
-A few resources to get you started if this is your first Flutter project:
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
